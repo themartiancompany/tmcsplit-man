@@ -53,6 +53,13 @@ Options
   length N.
 
 
+-d
+
+  Use numeric suffixes
+  starting at 0, not
+  alphabetic.
+
+
 -h, --help
 
   Display help.
