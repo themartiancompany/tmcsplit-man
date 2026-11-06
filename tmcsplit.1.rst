@@ -26,7 +26,7 @@ tmcsplit
 ==============
 
 --------------------------------------------------------
-The Martian Company's Split
+Output pieces of FILE to PREFIXaa, PREFIXab, ...
 --------------------------------------------------------
 :Version: tmcsplit |version|
 :Manual section: 1
