@@ -40,22 +40,22 @@ tmcsplit *option* *[arguments]*
 Description
 ===========
 
-Javascript GNU Split
+The Martian Company's Javascript GNU Split
 implementation.
 
 
 Options
 ========
 
--s input num-parts      Split the input file in
-                        the given number of parts.
--x input size-max       Split the input file into
-                        multiple parts with maximum
-                        file size of max_size bytes.
--m output [parts]       Merge the given parts into
-                        the output file.
+-a, --suffix-length=N
 
--h                      Display help.
+  Generate suffixes of
+  length N.
+
+
+-h, --help
+
+  Display help.
 
 
 Examples
@@ -80,18 +80,19 @@ split-file \
 Bugs
 ====
 
-https://github.com/themartiancompany/node-split-file/-/issues
+https://github.com/themartiancompany/tmcsplit/-/issues
 
 Copyright
 =========
 
-Copyright Tom Valk, Pellegrino Prevete. AGPL-3.0.
+Copyright Pellegrino Prevete. AGPL-3.0.
 
 See also
 ========
 
 * split
-* tmcsplit
+* base64.js
+* sha256sum.js
 * tmccat
 
 .. include:: variables.rst
